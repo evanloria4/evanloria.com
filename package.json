@@ -4,6 +4,7 @@
   "description": "My personal portfolio and resume",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./src/server.index.ts",
     "build": "webpack --watch"
   },
   "repository": {
