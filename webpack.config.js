@@ -15,7 +15,7 @@ module.exports = {
     hot: true,
     open: true,
     historyApiFallback: true,
-    port: 4000,
+    port: 3000,
   },
   output: {
     path: DIST_DIR,
