@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import './projects';
 import dotenv from 'dotenv';
 
 dotenv.config();
