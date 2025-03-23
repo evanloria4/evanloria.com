@@ -7,8 +7,16 @@ const SRC_DIR = path.resolve(__dirname, 'src');
 const CLIENT_DIR = path.resolve(__dirname, 'src', 'client');
 
 module.exports = {
-  mode: 'development',
   entry: path.resolve(CLIENT_DIR, 'index.tsx'),
+  devServer: {
+    static: {
+      directory: DIST_DIR, // Serve from dist
+    },
+    hot: true,
+    open: true,
+    historyApiFallback: true,
+    port: 4000,
+  },
   output: {
     path: DIST_DIR,
     publicPath: '/',
@@ -66,7 +74,8 @@ module.exports = {
       template: path.resolve(CLIENT_DIR, 'index.html'),
       filename: 'index.html',
       inject: true
-    })
+    }),
+    new webpack.HotModuleReplacementPlugin(),
   ],
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.css'],
