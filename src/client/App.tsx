@@ -1,9 +1,12 @@
 import React from 'react';
+import '../styles/main.css';
 
 function App() {
   return (
-    <h1>Evan Loria</h1>
-  )
+    <div className="text-red-400">
+      RED TEXT
+    </div>
+  );
 }
 
 export default App;
