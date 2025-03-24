@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Project
+function ProjectList() {
+  return (
+    <div>PROJECTS</div>
+  )
+}
+
+export default ProjectList;
