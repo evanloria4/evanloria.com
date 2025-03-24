@@ -28,7 +28,7 @@ function App() {
       <div className="bg-cream flex-1 text-white">
         <div className="flex flex-col gap-2 pt-4">
           <div className="flex flex-row gap-2 items-center">
-            <div className="text-primary text-2xl pl-4">Flare |</div>
+            <div className="text-primary text-xl pl-4">Flare |</div>
             <a
               href="https://github.com/the-full-stack-attack/flare"
               className="text-accent hover:underline font-medium"
@@ -40,7 +40,7 @@ function App() {
             <div className="text-black">(not active)</div>
           </div>
           <div className="flex flex-row gap-2 items-center">
-            <div className="text-primary text-2xl pl-4">Vitality |</div>
+            <div className="text-primary text-xl pl-4">Vitality |</div>
             <a
               href="https://github.com/Awesome-Person-Interface/fitness-tracker"
               className="text-accent hover:underline font-medium"
@@ -52,7 +52,7 @@ function App() {
             <div className="text-black">(not active)</div>
           </div>
           <div className="flex flex-row gap-2 items-center">
-            <div className="text-primary text-2xl pl-4">Game Knight |</div>
+            <div className="text-primary text-xl pl-4">Game Knight |</div>
             <a
               href="https://github.com/Awesome-Person-Interface/game-knight"
               className="text-accent hover:underline font-medium"
