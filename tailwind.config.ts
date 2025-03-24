@@ -10,6 +10,7 @@ module.exports = {
         muted: '#f5f5f5',
         text: '#1e1e1e',
         lightText: '#ffffff',
+        cream: '#fdf6e3',
       },
       borderRadius: {
         md: '0.5rem',
