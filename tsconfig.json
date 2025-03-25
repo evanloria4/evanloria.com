@@ -28,6 +28,8 @@
     "declarations.d.ts"
   ],
   "exclude": [
-    "./src/components/ui/**",
+    "src/client",
+    "src/styles",
+    "**/*.test.ts"
   ],
 }
