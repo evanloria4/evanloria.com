@@ -5,7 +5,7 @@ import profile from "./img/profile.png";
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <section className="bg-primary text-white pt-6 pl-4">
+      <section className="bg-primary text-white pt-6 px-2">
         <div className="mx-auto flex flex-col items-center justify-between gap-8">
           <div className="flex flex-col items-center text-center gap-6 max-w-md">
             <img
