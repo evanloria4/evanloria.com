@@ -22,10 +22,6 @@
   "include": [
     "./src/**/*",
     "src/**/*.ts",
-    "src/**/*.d.ts",
-    ".eslintrc.js",
-    "lib",
-    "declarations.d.ts"
   ],
   "exclude": [],
 }
