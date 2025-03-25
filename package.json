@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My personal portfolio and resume",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "webpack serve --config webpack.config.js --mode development",
     "start": "nodemon ./src/server/index.ts",
