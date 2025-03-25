@@ -1,35 +1,20 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceMap": true,
+    "outDir": "./dist",
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "strict": true,
-    "noEmit": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    "module": "commonjs",
-    "moduleDetection": "force",
-    "moduleResolution": "node",
-    "target": "es5",
-    "allowJs": true,
-    "jsx": "react",
-    "esModuleInterop": true,
+    "sourceMap": true,
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": [
-    "./src/**/*",
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    ".eslintrc.js",
-    "lib",
-    "declarations.d.ts"
-  ],
-  "exclude": [
-    "src/client",
-    "src/styles",
-    "**/*.test.ts"
-  ],
+  "include": ["src/server/**/*", "declarations.d.ts"],
+  "exclude": ["src/client", "src/styles", "**/*.test.ts"]
 }
