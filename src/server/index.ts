@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const { PORT } = process.env;
+const PORT = parseInt(process.env.PORT || '4000')
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Listening on http://localhost:${PORT}`);
 });
